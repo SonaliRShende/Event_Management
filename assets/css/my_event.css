@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.organizer-section {
+    background-color: #4f4f4f;
+    color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.organizer-info {
+    display: flex;
+    align-items: left;
+    gap: 20px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    background-color: #bfbfbf;
+    border-radius: 50%;
+}
+
+.info-text h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info-text .role {
+    background-color: #7e7e7e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.event-list-section {
+    padding: 0px 20px;
+    text-align: left;
+}
+
+.event-list-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.event-list-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 55px;
+    justify-items: center;
+}
+
+.event-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.event-image {
+    width: 60px;
+    height: 60px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.event-item h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.event-item p {
+    color: #666;
+    font-size: 14px;
+}
