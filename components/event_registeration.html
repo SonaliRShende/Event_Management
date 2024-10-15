@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Housing Society - Event Registration</title>
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/event_registeration.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div class="main-content">
+        <div class="left-section">
+            <h1>Event Registration</h1>
+            <p>Please select your participation preference</p>
+        </div>
+        <div class="right-section">
+            <form>
+                <label for="participation">Participation:</label>
+                <div class="option-group">
+                    <input type="radio" id="participate-yes" name="participation" value="yes">
+                    <label for="participate-yes">Yes, I will participate</label>
+
+                    <input type="radio" id="participate-no" name="participation" value="no">
+                    <label for="participate-no">No, I can't make it</label>
+                </div>
+
+                <label for="volunteer">Volunteer:</label>
+                <div class="option-group">
+                    <input type="radio" id="volunteer-yes" name="volunteer" value="yes">
+                    <label for="volunteer-yes">Yes, I will</label>
+
+                    <input type="radio" id="volunteer-no" name="volunteer" value="no">
+                    <label for="volunteer-no">No, I can't make it</label>
+                </div>
+
+                <label for="role">Volunteer Role:</label>
+                <div class="option-group">
+                    <input type="radio" id="role-setup" name="role" value="setup">
+                    <label for="role-setup">Setup</label>
+
+                    <input type="radio" id="role-coordinator" name="role" value="coordinator">
+                    <label for="role-coordinator">Coordinator</label>
+
+                    <input type="radio" id="role-other" name="role" value="other">
+                    <label for="role-other">Other</label>
+                </div>
+
+                <button id="submit" type="button" onclick="window.location.href='registeration_cmplt.html'">Submit</button>
+            </form>
+        </div>
+    </div>
+    <button id="backbtn" onclick="window.location.href='event_details.html'">Back</button>
+    <script src="../js/navbar.js"></script>
+</body>
+</html>

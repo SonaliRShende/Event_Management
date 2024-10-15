@@ -3,6 +3,7 @@ document.getElementById('signupBtn').addEventListener('click', function() {
 });
 
 document.getElementById('loginForm').addEventListener('submit', function(e) {
-    e.preventDefault();
+    e.preventDefault();  
+    localStorage.setItem('loggedIn', 'true');  
     window.location.href = 'events.html'; 
 });

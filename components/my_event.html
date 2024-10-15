@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My events</title>
+    <title>My Events</title>
     <link rel="stylesheet" href="/assets/css/my_event.css">
     <link rel="stylesheet" href="/assets/css/navbar.css">
 </head>
@@ -11,11 +11,11 @@
     <div id="navbar"></div>
     <section class="organizer-section">
         <div class="organizer-info">
-            <img src="/assets/images/organizer-bg.jpeg" class="profile-pic">
+            <img src="/assets/images/organizer-bg.jpeg" class="profile-pic" alt="Organizer Profile Picture">
             <div class="info-text">
                 <h2>Event Organizer Name</h2>
                 <p class="role">Organizer</p>
-                <p class="role">+91 XXXXXXXXXX</p>
+                <p class="contact">+91 XXXXXXXXXX</p>
             </div>
         </div>
     </section>
@@ -25,31 +25,40 @@
         <p>Manage your upcoming events</p>
 
         <div class="event-list">
-            <button class="event-item1">
-                <img src="/assets/images/event1bg.jpeg" class="event-image">
-                <h3>Event 1</h3>
-                <p>July 25, 2023</p>
-            </button>
+            <button id="event-btn1" class="event-item">
+                <img src="/assets/images/event1bg.jpeg" class="event-image" alt="Event 1">
+                <div class="event-text">
+                    <h3>Event 1</h3>
+                    <p>June 25, 2023</p>
+                </div>
+            </button >
 
-            <button class="event-item2">
-                <img src="/assets/images/event2bg.jpeg" class="event-image">
-                <h3>Event 2</h3>
-                <p>July 25, 2023</p>
-            </button>
+            <button id="event-btn2"   class="event-item">
+                <img src="/assets/images/event2bg.jpeg" class="event-image" alt="Event 2">
+                <div class="event-text">
+                    <h3>Event 2</h3>
+                    <p>July 10, 2023</p>
+                </div>
+            </button >
 
-            <button class="event-item3">
-                <img src="/assets/images/event3bg.jpeg" class="event-image">
-                <h3>Event 3</h3>
-                <p>July 25, 2023</p>
-            </button>
+            <button id="event-btn3"   class="event-item">
+                <img src="/assets/images/event3bg.jpeg" class="event-image" alt="Event 3">
+                <div class="event-text">
+                    <h3>Event 3</h3>
+                    <p>August 12, 2023</p>
+                </div>
+            </button >
 
-            <button class="event-item4">
-                <img src="/assets/images/event4bg.jpeg" class="event-image">
-                <h3>Event 4</h3>
-                <p>July 25, 2023</p>
-            </button>
+            <button  id="event-btn4"  class="event-item">
+                <img src="/assets/images/event4bg.jpeg" class="event-image" alt="Event 4">
+                <div class="event-text">
+                    <h3>Event 4</h3>
+                    <p>September 2, 2023</p>
+                </div>
+            </button >
         </div>
     </section>
+    <button id="backbtn" onclick="window.location.href='events.html'">Back</button>
     <script src="../js/navbar.js"></script>
     <script src="../js/my_event.js"></script>
 </body>

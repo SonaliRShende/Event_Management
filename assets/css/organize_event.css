@@ -3,10 +3,30 @@ body {
 }
 
 .event-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 55px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    flex: 0.8; 
+    margin-right: 20px;
+}
+
+
+.image-container img {
+    width: 600px; 
+    height: 550px; 
+}
+
+
+.form-container {
+    flex: 1;
 }
 
 form {
@@ -20,8 +40,22 @@ label {
 
 input, textarea {
     padding: 8px;
+    width: 80%; 
     margin-top: 5px;
 }
-button{
-    margin-top: 10px;
+
+#createEventBtn {
+    margin: 10px;
+    padding: 20px;
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#backbtn {
+    width: 10%;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: large;
+    padding: 10px; 
 }

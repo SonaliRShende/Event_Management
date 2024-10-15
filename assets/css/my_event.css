@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
@@ -7,24 +6,23 @@ body {
 }
 
 .organizer-section {
-    background-color: #4f4f4f;
-    color: #fff;
+    background-color: #d0d0d0;
+    color: #000000;
     padding: 40px 20px;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .organizer-info {
     display: flex;
-    align-items: left;
+    align-items: center;
     gap: 20px;
 }
 
 .profile-pic {
-    width: 80px;
-    height: 80px;
-    background-color: #bfbfbf;
+    width: 20vh;
+    height: 20vh;
     border-radius: 50%;
 }
 
@@ -34,16 +32,16 @@ body {
     font-weight: bold;
 }
 
-.info-text .role {
-    background-color: #7e7e7e;
+.info-text .role,
+.info-text .contact {
+    background-color: #ffffff;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
 }
 
-
 .event-list-section {
-    padding: 0px 20px;
+    padding: 20px;
     text-align: left;
 }
 
@@ -55,40 +53,50 @@ body {
 .event-list-section p {
     font-size: 18px;
     color: #666;
-    margin-bottom: 40px;
 }
 
 .event-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 55px;
-    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .event-item {
-    background-color: #fff;
+    display: flex;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .event-image {
-    width: 60px;
-    height: 60px;
+    width: 20vh;
+    height: 20vh;
     background-color: #e0e0e0;
-    border-radius: 50%;
-    margin: 0 auto 20px;
+    border-radius: 10%;
+    margin-right: 20px;
 }
 
-.event-item h3 {
-    margin: 0 0 10px;
-    font-size: 18px;
+.event-text {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.event-text h3 {
+    margin: 0;
+    font-size: 30px;
     font-weight: bold;
 }
 
-.event-item p {
+.event-text p {
     color: #666;
-    font-size: 14px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#backbtn {
+    width: 10%;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: large;
+    padding: 10px; 
 }

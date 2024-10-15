@@ -1,33 +1,35 @@
 .navbar {
-    background-color: #000000;
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
+    border-bottom: 1px inset #000;  
     box-sizing: border-box;
+    background-color: #282828dd;
 }
 
 .logo-section {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .logo {
     width: 40px;
-    height: 40px;
+    height: 30px;
     margin-right: 10px;
     border-radius: 50%;
 }
 
 .navbar h1 {
     margin: 0;
-    padding: 0;
-    color: white;
+    color: #ffffff;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
     font-size: 24px;
+
 }
 
 .nav-links {
@@ -35,15 +37,15 @@
 }
 
 .nav-links a {
-    color: white;
-    text-align: center;
+    color: #ffffff; 
     padding: 0 15px;
     text-decoration: none;
     font-size: 17px;
-    line-height: 40px; 
+    line-height: 40px;
+    transition: background-color 0.2s; 
 }
 
 .nav-links a:hover {
     background-color: #575757;
-    color: white;
+    color: #fff; 
 }

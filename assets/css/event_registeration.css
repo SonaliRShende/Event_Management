@@ -1,0 +1,95 @@
+body {
+    margin-top: 8%;
+    padding: 0;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+
+.main-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px; 
+  }
+.left-section {
+    width: 50%;
+    padding-top: 160px;
+    padding-left: 160px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.right-section {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top:50px;
+    gap: 20px;
+    padding-right: 160px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.option-group {
+    width: 120%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    padding: 10px 40px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    
+}
+
+input[type="radio"]:checked + label {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+#submit {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px 60px;
+    width: 50%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+#backbtn {
+    width: 10%;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: large;
+    padding: 10px; 
+}

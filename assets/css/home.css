@@ -9,19 +9,23 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/bg.jpg");
-    height: 70vh;
-    margin-top: 150px;
+    background-image:  radial-gradient(rgba(0, 0, 0, 0.701),rgba(0, 0, 0, 0.636), rgba(255, 255, 255, 0.241)),url("../images/bg.jpg");
+    height: 100vh;
+    margin-top: 0px;
     background-size: cover;
     color: white;
     text-align: center;
 }
 
 .hero h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
+    font-size: 5em;
+    margin-bottom: 5px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
-
+.hero p{
+    font-size: 2em;
+    
+}
 .hero-buttons button {
     margin: 10px;
     padding: 10px 20px;

@@ -9,28 +9,40 @@
 </head>
 <body>
     <div id="navbar"></div>
+    
     <div class="event-container">
-        <h1>Create Event</h1>
-        <form id="createEventForm">
-            <label for="organizerName">Organizer Name</label>
-            <input type="text" id="organizerName" placeholder="Enter your name" required>
-           
-            <label for="eventName">Event Name</label>
-            <input type="text" id="eventName" placeholder="Enter event name" required>
-            
-            <label for="eventDate">Event Date</label>
-            <input type="date" id="eventDate" required>
-            
-            <label for="eventTime">Event Time</label>
-            <input type="time" id="eventTime" required>
+        <div class="image-container">
+            <img src="/assets/images/organize-bg.jpeg" alt="Event Image">
+            <button id="backbtn" onclick="window.location.href='events.html'">Back</button>
+        </div>
 
-            <label for="eventDescription">Event Description</label>
-            <textarea id="eventDescription" placeholder="Enter event description" required></textarea>
+        <div class="form-container">
+            <h1>Create Event</h1>
+            <form id="createEventForm">
+                <label for="organizerName">Organizer Name</label>
+                <input type="text" id="organizerName" placeholder="Enter your name" required>
 
-            <button type="button" id="createEventBtn">Create Event</button>
-        </form>
-        <button onclick="window.location.href='events.html'"> Back </button>
+                <label for="eventName">Event Name</label>
+                <input type="text" id="eventName" placeholder="Enter event name" required>
+
+                <label for="eventDate">Event Date</label>
+                <input type="date" id="eventDate" required>
+
+                <label for="eventTime">Event Time</label>
+                <input type="time" id="eventTime" required>
+
+                <label for="eventLoc">Location</label>
+                <input type="text" id="eventLoc" placeholder="Enter Location of event" required>
+
+                <label for="eventDescription">Event Description</label>
+                <textarea id="eventDescription" placeholder="Enter event description" required></textarea>
+
+                <button type="button" id="createEventBtn">Send invitation</button>
+            </form>
+            
+        </div>
     </div>
+
     <script src="../js/navbar.js"></script>
     <script src="../js/organize_event.js"></script>
 </body>

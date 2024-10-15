@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ganesh Housing Society - Send Invites to your neighbors for events.">
+    <title>Send Invitations</title>
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/sendinvites.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="invites-container">
+        <div class="left-section">
+            <h1>Send Invitations</h1>
+            <p>"Invite your friends and neighbors to join in on the fun!
+                <br> Add your friends , and hit send to make sure no one misses out!"</p>
+              
+        </div>
+        <div class="right-section">
+            <div class="option">
+                <div class="icon">🔍</div>
+                <div class="text">
+                    <strong>Search Bar</strong>
+                    <p>Search for neighbors to invite</p>
+                </div>
+                <hr>
+            </div>
+            <div class="option">
+                <div class="icon">👤</div>
+                <div class="text">
+                    <strong>Select Everyone Except</strong>
+                    <p>Choose specific individuals to exclude</p>
+                </div>
+                <hr>
+            </div>
+            <div class="option">
+                <div class="icon">👥</div>
+                <div class="text">
+                    <strong>Select All</strong>
+                    <p>Invite all residents with one click</p>
+                </div>
+                <hr>
+            </div>
+            <div class="submit">
+                <button type="button" onclick="showConfirmation()">Submit</button>
+            </div>
+        </div>
+    
+    </div>
+    <button id="backbtn" onclick="window.location.href='organize_event.html'">Back</button>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/sendinvites.js"></script>
+</body>
+</html>

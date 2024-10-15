@@ -1,13 +1,87 @@
 body {
-    background-color: #f9f9f9;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  .main-content {
+    margin-top: 5%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px; 
+  }
+  
+  .left-section {
+    width: 55%;
+    padding-top:130px;
+    padding-left:70px ; 
+   
+    text-align: left;
+  }
+  
+  .right-section {
+    width: 40%; 
+  }
+  
+.events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.event-container {
-    padding: 20px;
+.event-item {
+    display: flex;
     background-color: #fff;
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    align-items: center;
 }
-button{
-    margin-top: 10px;
+
+.event-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.event-details {
+    flex: 1;
+}
+
+.event-details h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.event-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.event-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.event-btn:hover {
+    background-color: #0056b3;
+}
+#backbtn {
+    width: 10%;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: large;
+    padding: 10px; 
 }
